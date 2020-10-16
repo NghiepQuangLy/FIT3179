@@ -14,7 +14,7 @@
     },
     {
       "data": {
-        "url": "ne_110m_populated_places_simple"
+        "url": "https://NghiepQuangLy.github.io/FIT3179/endangeredanimalsbycountry.csv"
       },
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
@@ -25,12 +25,11 @@
           "mark": {"type": "circle", "tooltip": {"content": "data"}},
           "encoding": {
             "size": {
-              "field": "mag",
-              "type": "quantitative",
-              "scale": {"domain": [4, 8]}
+              "field": "CriticallyEndangered",
+              "type": "quantitative"}
             },
             "color": {
-              "field": "depth",
+              "field": "CritcallyEndangered",
               "type": "quantitative",
               "scale": {"scheme": "reds"}
             }
