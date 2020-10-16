@@ -27,9 +27,7 @@
             "size": {
               "field": "CriticallyEndangered",
               "type": "quantitative",
-              "scale": {
-                "type": "quantile"
-              }
+              "scale": {"domain": [0, 220]}
             },
             "color": {
               "field": "CritcallyEndangered",
