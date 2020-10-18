@@ -67,7 +67,9 @@
               "legend": {
                 "title": "Native Species",
                 "titleFont": "open sans",
-                "labelFont": "lato"
+                "labelFont": "lato",
+                "symbolFillColor": "#009966",
+                "symbolOpacity": 0.5
                 }
             }
           }
