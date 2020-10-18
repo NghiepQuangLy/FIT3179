@@ -8,10 +8,17 @@
     "font": "open sans",
     "fontSize": 16
   },
-  "projection": {"type": "equalEarth"},
+  "projection": {"type": "mollweide"},
   "config":{"view": {"strokeWidth": 0}},
   "layer": [
-    
+    {
+      "data": {
+        "url": "https://NghiepQuangLy.github.io/FIT3179/ne_110m_graticules_30.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      },
+      
+      "mark": {"type": "geoshape", "stroke": "lightgrey", "fill": null}
+    },
     {
       "data": {
         "url": "https://NghiepQuangLy.github.io/FIT3179/ne_110m_admin_0_countries.topojson",
